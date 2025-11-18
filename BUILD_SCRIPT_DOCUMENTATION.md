@@ -4,6 +4,8 @@
 
 sps2 uses YAML format for build recipes. Each package recipe is a `.yaml` file that defines metadata and build instructions using a declarative, staged approach. The builder automatically handles packaging - you just need to specify how to build the software.
 
+
+
 **Tip**: Use `sps2 draft` to automatically generate recipes from Git repositories or source archives:
 ```bash
 # Generate recipe from Git repository
