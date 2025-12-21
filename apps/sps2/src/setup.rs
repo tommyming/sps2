@@ -103,6 +103,7 @@ impl SystemSetup {
             fixed_paths::LIVE_DIR,
             fixed_paths::LOGS_DIR,
             fixed_paths::KEYS_DIR,
+            fixed_paths::BIN_DIR,
         ];
 
         for dir in &required_dirs {

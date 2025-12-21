@@ -34,7 +34,6 @@ enum Commands {
         /// Optional passphrase or keychain string for minisign
         #[arg(long)]
         pass: Option<String>,
-        vairable: String,
     },
 
     /// Rescan repo directory and rebuild+sign index
